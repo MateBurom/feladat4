@@ -1,3 +1,26 @@
+body {
+	background-color: #ffd700;
+}
+
+#vonal {
+  width: 800px;
+  height: 6px;
+  background-color: green;
+  margin: 0 auto;
+}
+
+
+h1 {
+	text-align: center;
+	color:red;
+	text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: red;
+}
+
 a
 {
 	color: red;
@@ -36,14 +59,15 @@ p:first-letter
 
 .keret
 {
-	width: 200px;
-	margin: 1px auto;
+	width: 50%;
+	margin: 0 auto;
 	text-align: center;
-	padding: 50px;
+	padding: 20px;
 	font-style: italic;
 	font-size: 75%;
-	float: right;
 }
+
+
 
 #kep
 {
@@ -60,9 +84,10 @@ p:first-letter
 	box-shadow: 10px 0px 10px black;
 }
 
-li
-{
-	padding: 3px;
-	margin: 3px;
-	font-style: italic;
+ul {
+  list-style-image: url("list.png");
+}
+
+ul li {
+  border: 2px solid blue;
 }
